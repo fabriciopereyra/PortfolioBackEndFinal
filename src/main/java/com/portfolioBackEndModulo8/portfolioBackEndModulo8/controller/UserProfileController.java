@@ -30,7 +30,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @author Fabricio
  */
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200/", "https://argentinaprograma4frontend.web.app/"})
+@CrossOrigin(origins = {"http://localhost:4200/", "https://portfoliofrontendfinal.web.app/"})
 @RequestMapping("userProfile")
 public class UserProfileController {
 
